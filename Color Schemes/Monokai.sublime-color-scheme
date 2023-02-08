@@ -1,0 +1,84 @@
+{
+	"variables":
+	{
+        "yellowCustom1" : "#2d2e2b",
+        "geanyGreen" : "hsl(120, 73%, 84%)",
+        "geanyPurple" : "hsl(315, 100%, 40%)",
+	},
+    
+    
+	"globals":
+	{
+        "line_highlight": "var(yellowCustom1)",
+        // "block_caret": "color(var(white) alpha(1))",
+        // "block_caret_border": "color(var(white) alpha(0.2))",
+	},
+    
+    
+	"rules":
+	[
+
+
+	   //  data types like int, float
+        {
+            "name": "Storage type",
+            "scope": "storage.type",
+            "foreground": "var(red2)",
+        },
+
+
+
+        // function like push_back and make_pair
+        {
+            "name": "Function call",
+            "scope": "variable.function, variable.annotation",
+            "foreground": "var(white2)"
+        },
+            
+
+
+        // library finc like abs()
+        {
+            "name": "Library function",
+            "scope": "support.function, support.macro",
+            "foreground": "var(white2)"
+        },
+        
+                
+
+        // java class objects like Scanner, System.in
+        {
+            "name": "Library class/type",
+            "scope": "support.type, support.class",
+            "foreground": "var(yellow2)",
+        },
+        
+
+        
+        // main() and all words that are after #define
+        {
+            "name": "Entity name",
+            "scope": "entity.name - (entity.name.filename | entity.name.section | entity.name.tag | entity.name.label)",
+            "foreground": "var(white2)"
+        },
+        
+
+
+        // Comments
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "foreground": "var(yellow2)"
+        },
+        
+        
+        
+        // {
+        //     "name": "Keyword",
+        //     "scope": "keyword - (source.c keyword.operator | source.c++ keyword.operator | source.objc keyword.operator | source.objc++ keyword.operator), keyword.operator.word, source.ruby keyword.declaration",
+        //     "foreground": "var(geanyGreen)"
+        // },
+        
+
+	]
+}
