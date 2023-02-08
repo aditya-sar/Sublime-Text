@@ -1,0 +1,6 @@
+{
+    "shell_cmd": "g++ -std=c++17 \"${file}\" -IC:\\dev\\BGI -LC:\\dev\\BGI -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32 -o \"${file_path}/${file_base_name}\" && start cmd /c \"title ${file_base_name}.exe && \"${file_path}/${file_base_name}\" && echo. && pause\"",
+    "file_regex": "^(..[^:]):([0-9]+):?([0-9]+)?:? (.)$",
+    "working_dir": "${file_path}",
+    "selector": "source.c++, source.c, source.cc"
+}
