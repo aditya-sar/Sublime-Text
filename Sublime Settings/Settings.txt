@@ -1,0 +1,67 @@
+{
+	"color_scheme": "Monokai.sublime-color-scheme",
+	
+	// "font_face" : "Fixedsys",
+	// "font_face" : "Liberation Mono",
+	// "font_face" : "Cascadia Code",
+	// "font_face" : "Droid Sans Mono",	
+	// "font_face" : "Menlo",	
+	// "font_face" : "DejaVu Sans Mono",
+	
+
+	// "line_padding_top": -1,
+	// "line_padding_bottom": -1,
+
+	// "line_padding_top": 1,
+	// "line_padding_bottom": 1,
+
+	"font_size": 11,
+	
+	
+	"auto_complete": false, 
+
+	"block_caret" : false, 
+
+	"highlight_line": true,
+
+	"auto_complete_commit_on_tab": true,
+
+	
+	"caret_extra_width" : 0, 
+	"caret_extra_bottom": 0, 
+       "caret_extra_top": 0, 
+	
+	"draw_indent_guides": true, 
+
+
+	"highlight_gutter": true,
+	
+
+	"remember_full_screen" : true,	
+	"show_full_path" : false,
+	"trim_automatic_white_space": true,
+	"indent_to_bracket": true,
+	"save_on_focus_lost": true, 
+	
+	"font_options":
+	[
+		"no_italic",
+		"no_bold",
+		
+		// "no_antialias",
+		// "gray_antiaias",
+	],
+	
+
+
+	
+	"ignored_packages":
+	[
+		"Block Cursor Everywhere",
+		"Package Control",
+		"Vintage",
+	],
+	"theme": "Adaptive.sublime-theme",
+	"vintage_start_in_command_mode": true,
+	"index_files": false,
+}
